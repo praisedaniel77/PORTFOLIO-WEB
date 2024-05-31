@@ -1,0 +1,220 @@
+/* Reset styles */
+  html{
+    scroll-behavior: smooth;
+  }
+body,html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    /*background-color:  #64766a;*/
+    background-image: url('img6.jpg');
+}
+    /* Navigation Bar*/ 
+    nav {
+    padding: 10px;
+    /*background-color: rgb(92, 180, 151);*/
+  }
+    nav ul {
+    list-style-type:inline;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    font-style:normal;
+      color: #000000
+  }
+    nav ul li {
+    display:inline-flex;
+
+    margin-right: 10px;
+    }
+    nav ul li a {
+    color: #000000;
+    text-decoration:wavy;
+    }
+    td:hover{
+        outline-color:#3b463300;      
+      
+      }
+      .mvp{
+        text-align: left;
+      }
+    /* Hero Section */
+    .hero {
+    background-size: cover;
+    color: #000000;
+    padding: 100px;
+    text-align: center;
+    font-size: medium;
+    }
+    /* About Me Section */
+    .about {
+    padding: 50px;
+      }
+      .nes{
+      background-image: url('img6.jpg');
+      }
+      .img4{
+        background-image:url('img6.jpg') ;
+        border-inline-end-color: rgb(228, 190, 142);
+      }
+div{
+  display: block;
+}
+  h4{
+    font-size: medium;
+    text-align:center;
+  }
+
+  .more{
+    font-size: medium;
+    font-family: Verdana,  Tahoma, sans-serif;
+    font-style:italic;
+    font-display:unset;
+    text-align: right;
+    padding-right: 20px;
+  }
+.more a:hover{
+  border-color: #af9316;
+  color: #000000;
+
+}
+
+.more a:active{
+  color: #e7da9c;
+}
+
+.skills {
+	text-align: center;
+}
+
+    /* Projects Section */
+    h2 {
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        font-size: 20px;
+        text-align: center;
+        color: rgb(0, 0, 0);
+      }
+      
+
+
+    
+    /* Contact Section */
+    .contact {
+    padding: 50px;
+    }
+    .contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    }
+    
+    input, textarea, button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    }
+    button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+    button:hover{
+        color:aqua;
+    }
+    
+    .footer{
+        background-color: rgb(0, 15, 26);
+      align-content: baseline;
+      padding: 0%;
+      margin: 0%;
+      text-align: center;
+      text-decoration: solid;
+      font-size: medium;  
+    }
+    img {
+        border-radius: 50%;
+    }
+    /*add shadows to create the card effect*/
+    .card{
+        box-shadow: 0 4px 8px 0 
+         #333;
+         transition: 0.03s;
+        width: 40%;    
+        padding: 10px;
+    }
+     /*on mouse-over, add a depper shadow*/
+     .card:hover{
+        box-shadow: 0 8px 16px 0
+        #af9316;
+     }
+     /* add some padding inside the container*/
+     .container{
+        padding: 2px 16px;
+        text-align: center;
+    }
+    .center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:80%;
+        padding: auto;
+        border-radius: 4px;
+        border: 1px solid #666149;
+    }
+    .left{
+        display: block;
+        padding-left:30px;
+        padding-right: none;
+        padding-bottom: 50px;
+        width: 30%;
+        flood-opacity: 0%;
+    }
+
+    h1{
+      text-align: center;
+      font-style: oblique;
+      font-weight: bold;
+      font-family: Verdana;
+    }
+    /*icons*/
+  li {
+    list-style-type: none;
+  }
+    .socials {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-between;
+
+  }
+    .face a:hover{
+      color: aquamarine;
+      transition: .5s;
+      font-size: 40px;
+    }
+    .twit  a:hover{
+      color:aquamarine;
+      transition: .5s;
+      font-size: 40px;
+    }
+    .git a:hover{
+      color: aquamarine;
+      transition: .5s;
+      font-size: 40px;
+    }
+    .insta a:hover{
+      color: aquamarine;
+      transition: .5s;
+      font-size: 40px;
+    }
+    .whats a:hover{
+      color: aquamarine;
+      transition: .5s;
+      font-size: 40px;
+       }
+       /*MY SKILLS*/
+       .container{
+        background-image: url(img6.jpg);
+       }
